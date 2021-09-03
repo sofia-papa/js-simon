@@ -1,8 +1,11 @@
 
+let numeriGenerati = [];
 //tramite un alert vengono mostrati cinque numeri da 1 a 100 generati casualmente
 for(let i = 0; i < 5; i++){
-    alert(getRandomInt(1,100));
+    numeriGenerati.push(getRandomInt(1,100));
+    alert(numeriGenerati);
 }
+console.log(numeriGenerati);
 
 // TIMER DI 30 SECONDI
 let tempoRimasto = 30;
@@ -23,6 +26,7 @@ function inseriscoNumeri() { //al termine dei trenta secondi chiedo all'utente d
                              // i cinque numeri che ha visto precedentemente
     for(let j = 0; j < 5; j++){
         prompt("inserisci i numeri che hai appena visto");
+
     }
 }
 
