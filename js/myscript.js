@@ -9,7 +9,7 @@ for(let i = 0; i < 5; i++){
 console.log(numeriGenerati);
 
 // TIMER DI 30 SECONDI
-let tempoRimasto = 5;
+let tempoRimasto = 30;
 let elem = document.getElementById("timer");
 let timerId = setInterval(countdown, 1000);
 
